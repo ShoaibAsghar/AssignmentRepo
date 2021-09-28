@@ -3,7 +3,7 @@
 //array = {1,5,4,7,2,0,0,0,0,0}, numtoInsert = 6, index = 3
 //After insertion : array = {1,5,4,6,7,2,0,0,0,0}
 import java.util.*;
-public class ArrayInsertion{
+public class array{
         static int size = 0;
 	public static int [] insert(int [] array, int numbertoinsert, int indextoinsertat){
 		//check if array is full or not.

@@ -2,7 +2,7 @@
 // array = {1,2,3,4,5}, index = 3;
 // after deletion of 3rd element : array = {1,2,3,5,-1}
 
-import java.util.*;
+import java.util.*; 
 public class ArrayDeletion{
 	//this function takes two arguments - array to delete in and index of the element to delete.
 	private static int [] delete(int [] array, int indextodeleteAt){
