@@ -9,6 +9,7 @@ public class LinkedListImplementation{
 			list.add(12);
 			
 			list.display();
+			
 
 			list.pushFront(22);
 			list.display();

@@ -10,6 +10,7 @@ public class CircularLinkedList{
 			this.next=null;
 		}
 
+		
 	}
 
 	static Node head;   //head of the list.

@@ -19,6 +19,7 @@ public class ArrayDeletion{
 		return array;
 	}
 
+	
 	//function to display the array.
 	public static void display(int [] array){
 		for(int i=0;i<array.length;i++){

@@ -8,6 +8,7 @@ public class StackImplementation{
 			stack.push(12); //push num=12
 			stack.push(14); //push num=14
 
+			
 			System.out.println("Top Element : " + stack.top());
 
 			stack.push(16); //push num=16

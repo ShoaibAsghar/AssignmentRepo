@@ -88,6 +88,7 @@ public class Array{
 			return binarySearch(number,mid+1,high);
 		}
 		
+		
 	}
 
 	//main function

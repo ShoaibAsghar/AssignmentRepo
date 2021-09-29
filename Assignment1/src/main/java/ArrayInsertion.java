@@ -3,9 +3,11 @@
 //array = {1,5,4,7,2,0,0,0,0,0}, numtoInsert = 6, index = 3
 //After insertion : array = {1,5,4,6,7,2,0,0,0,0}
 import java.util.*;
-public class ArrayInsertion{
+public class ArrayInsertion
+{
         static int size = 0;
-	public static int [] insert(int [] array, int numbertoinsert, int indextoinsertat){
+	public static int [] insert(int [] array, int numbertoinsert, int indextoinsertat)
+	{
 		//check if array is full or not.
 		if(size>=array.length){
 			System.out.println("Array Full!");
@@ -17,6 +19,7 @@ public class ArrayInsertion{
 			array[i] = array[i-1];
 		}
 
+		
 		//insert the given element.
 		array[indextoinsertat]=numbertoinsert;
 
@@ -47,5 +50,5 @@ public class ArrayInsertion{
 		insert(array,2,6);
 		insert(array,90,3);
 		insert(array,16,7);
-	}
+	} 
 }	 
