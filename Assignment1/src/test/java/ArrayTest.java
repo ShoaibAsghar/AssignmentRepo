@@ -67,6 +67,35 @@ public class ArrayTest {
 		 boolean expected_B=true;
 		 Assert.assertEquals(expected_B, Result_B);
 	}
+	
+	@Test
+	public void Bubble_SortCheck()
+	{
+		Array Obj=new Array();
+		Array Obj2=new Array();
+		
+		
+		 Array array = new Array(); //create an array.	
+		 array.insert(10,0);//insert 
+		 array.insert(8,1);//insert
+		 array.insert(9,2);//insert
+		 array.insert(6,3);//insert 
+		 array.insert(5,4);//insert
+		 array.insert(11,5);//insert 
+		 
+		 Obj2.insert(5,0);//insert 
+		 Obj2.insert(6,1);//insert
+		 Obj2.insert(8,2);//insert
+		 Obj2.insert(9,3);//insert 
+		 Obj2.insert(10,4);//insert
+		 Obj2.insert(11,5);//insert 
+		 
+		array.bubbleSort();
+		Obj=array;
+		 int[] expected_Arr= {5,6,8,9,10,11}; 
+		 Assert.assertArrayEquals(Obj2.array, Obj.array);
+	}
+	
 
 }
 
