@@ -9,7 +9,8 @@ public class ArrayInsertion
 	public static int [] insert(int [] array, int numbertoinsert, int indextoinsertat)
 	{
 		//check if array is full or not.
-		if(size>=array.length){
+		if(size>=array.length)
+		{
 			System.out.println("Array Full!");
 			return array;
 		}
