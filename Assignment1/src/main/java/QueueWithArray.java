@@ -42,11 +42,13 @@ public class QueueWithArray {
 	}
 	
 	//function to remove element. 
-	static public int dequeue(){
+	static public int dequeue()
+	{
 		//if queue is empty.
 		if(removePointer==addPointer){
 			System.out.println("Empty Queue.");
 			return -1;
+			
 		}
 
 		System.out.println("Dequeue Operation.");
