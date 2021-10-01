@@ -1,7 +1,9 @@
 import org.junit.Test;
 import org.junit.*;
 
-public class QueueImplementationTest {
+public class QueueImplementationTest
+
+{
 
 	QueueImplementation OBJ=new QueueImplementation(7);
 	
@@ -20,7 +22,7 @@ public class QueueImplementationTest {
 	@Test
 	public void Quetest2() throws Exception 
 	{
-		
+		OBJ.enqueue(9);
 	 	Assert.assertFalse(OBJ.empty() == true);
 	 	
 	}
@@ -30,9 +32,8 @@ public class QueueImplementationTest {
 	@Test
 	public void Quetest3() throws Exception 
 	{
-		//OBJ.dequeue();
-        //OBJ.dequeue();
-	 	Assert.assertTrue(OBJ.empty() == true);
+		OBJ.enqueue(7);
+		Assert.assertEquals(OBJ.dequeue(), 7);
 	 	
 	}
 

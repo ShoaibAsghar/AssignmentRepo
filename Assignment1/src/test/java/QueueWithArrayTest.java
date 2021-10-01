@@ -1,31 +1,46 @@
-import static org.junit.Assert.*;
-
-import org.junit.Assert;
+import org.junit.*;
 import org.junit.Test;
 
+
 public class QueueWithArrayTest 
+
 {
-	QueueWithArray OBJ=new QueueWithArray(8);
+	QueueWithArray ObjQue=new QueueWithArray(8);
 	
 	@Test
-	public void Queue_Arraytest() 
+	public void Queue_Arraytest1() 
 	{
-		OBJ.enqueue(3);
-		OBJ.enqueue(4);
-		OBJ.enqueue(5);
+		ObjQue.enqueue(3);
+		ObjQue.enqueue(4);
+		ObjQue.enqueue(5);
+		ObjQue.enqueue(10);
 		
-	 	Assert.assertEquals(OBJ.dequeue(), 3);
-	 	
-		
+	 	Assert.assertEquals(ObjQue.dequeue(), 3);
+	 			
 	}
-
+	
+		
 	@Test
 	public void Queue_Arraytest2() 
 	{
-		OBJ.enqueue(4);
-		Assert.assertEquals(OBJ.dequeue(), 5);	
+		ObjQue.enqueue(4);
+		ObjQue.enqueue(5);
+		Assert.assertNotEquals(ObjQue.dequeue(), 5);	
+		
+	}
+	
+	@Test
+	public void Queue_Arraytest3() 
+	{
+		ObjQue.enqueue(10);
+		ObjQue.enqueue(20);
+		ObjQue.enqueue(30);
+		Assert.assertEquals(ObjQue.dequeue(), 10);	
 		
 	}
 	
 	
+	
+
 }
+
