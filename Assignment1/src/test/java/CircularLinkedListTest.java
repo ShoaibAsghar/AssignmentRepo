@@ -98,6 +98,7 @@ public class CircularLinkedListTest
 	@Test
 	public void Passtest6() 
 	{
+		 //this test case pass because we check	not equal 
 		ObjList.pushBack(50);
 		ObjList.pushBack(60);
 		ObjList.pushBack(70);
