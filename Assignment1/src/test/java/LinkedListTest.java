@@ -1,4 +1,6 @@
+
 import org.junit.*;
+import org.junit.Test;
 
 public class LinkedListTest {
 	LinkedList Link_list1 = new LinkedList();
