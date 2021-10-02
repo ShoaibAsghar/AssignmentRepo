@@ -6,8 +6,9 @@ public class QueueWithLinkedListTest
 	QueueWithLinkedList Obj_Que = new QueueWithLinkedList();
     
 	@Test
-    public void Failtest() {
-        
+    public void checktest1() 
+	{
+       //this test case pass because we check not equal    
     	QueueWithLinkedList.enqueue(25);
     	QueueWithLinkedList.enqueue(30);
 
@@ -19,9 +20,10 @@ public class QueueWithLinkedListTest
     {
        
     	QueueWithLinkedList.enqueue(20);
+    	QueueWithLinkedList.enqueue(25);
     	QueueWithLinkedList.enqueue(40);
 
-        Assert.assertEquals(2, QueueWithLinkedList.size);
+        Assert.assertEquals(3, QueueWithLinkedList.size);
     }
    
     @Test
@@ -37,7 +39,7 @@ public class QueueWithLinkedListTest
     @Test
     public void Passtest3() 
     {
-       
+    	//this test case pass because we check not equal
     	QueueWithLinkedList.enqueue(60);
     	QueueWithLinkedList.enqueue(70);
 
