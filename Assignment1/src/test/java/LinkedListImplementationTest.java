@@ -90,6 +90,7 @@ public class LinkedListImplementationTest {
 	@Test
 	public void Passtest6() throws Exception
 	{
+		 //this test case pass because we check	not equal 
 		LinkedListImplementation Linked_List2 = new LinkedListImplementation();
 		Linked_List2.pushBack(50);
 		Linked_List2.pushBack(60);
@@ -122,6 +123,7 @@ public class LinkedListImplementationTest {
 	@Test
 	public void Passtest8() throws Exception 
 	{
+		 //this test case pass because we check	not equal 
 		Linked_List1.pushFront(10);
 		Linked_List1.pushFront(20);
 		Linked_List1.pushFront(30);
