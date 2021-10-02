@@ -99,6 +99,7 @@ public class LinkedListTest {
 	@Test
 	public void Passtest6() 
 	{
+		 //this test case pass because we check	not equal 
 		Link_list1.pushBack(50);
 		Link_list1.pushBack(60);
 		Link_list1.pushBack(70);
