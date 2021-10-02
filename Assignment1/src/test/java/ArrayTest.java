@@ -11,7 +11,7 @@ public class ArrayTest {
 	  Array array = new Array(); //create an array.	
 	  int value=3;
 	  int index=0;
-	  array.insert(value,index);//insert 
+	  array.insert(value,index);    //insert 
 	  boolean resultant=array.linearSearch(value);
 	  boolean expectedResult=true;
 	  Assert.assertEquals(expectedResult, resultant);
@@ -22,6 +22,7 @@ public class ArrayTest {
 	@Test
 	public void delete_check()
 	{
+		//this test case pass because we check not equal
 		  Array array = new Array(); //create an array.	
 		  int value=2;
 		  int index=0;
@@ -32,7 +33,6 @@ public class ArrayTest {
 	      boolean expected_R=false;
 	     
 	      boolean resultant_R=array.linearSearch(4);
-	    //  Assert.assertFalse(array.linearSearch(4));
 	      Assert.assertNotEquals(expected_R, resultant_R);
 	      
 	      
