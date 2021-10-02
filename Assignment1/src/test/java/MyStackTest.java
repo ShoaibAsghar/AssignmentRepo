@@ -24,8 +24,17 @@ public class MyStackTest {
     }
     
     @Test
-    public void Mystack2() throws Exception 
+    public void Mystack4() throws Exception 
     {
+    	    Obj_stack.top();
+    	    Obj_stack.top();
+            Assert.assertEquals(Obj_stack.top(), 20);
+    }
+    
+    @Test
+    public void Mystack2() throws Exception 
+    {      
+    	    //this test case pass because we check not equal
            Assert. assertNotEquals(Obj_stack.size(), 2);
     }
     
