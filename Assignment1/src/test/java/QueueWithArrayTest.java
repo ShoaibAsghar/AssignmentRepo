@@ -23,8 +23,10 @@ public class QueueWithArrayTest
 	@Test
 	public void Queue_Arraytest2() 
 	{
+		//this test case pass because we check not equal
 		ObjQue.enqueue(4);
 		ObjQue.enqueue(5);
+		ObjQue.enqueue(6);
 		Assert.assertNotEquals(ObjQue.dequeue(), 5);	
 		
 	}
@@ -38,7 +40,6 @@ public class QueueWithArrayTest
 		Assert.assertEquals(ObjQue.dequeue(), 10);	
 		
 	}
-	
 	
 	
 
