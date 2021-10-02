@@ -87,7 +87,7 @@ public class StackWithLinkedList
 	}
 	
 	static public void main(String [] args){
-		StackWithLinkedList stack = new Stack(); //create new stack.
+		StackWithLinkedList stack = new StackWithLinkedList(); //create new stack.
 		stack.push(10);            //push num = 10
 		stack.push(20);            //push num = 20
 		stack.push(30);            //push num = 30

@@ -15,7 +15,7 @@ public class LinkedListImplementation{
 	//function to add element into the linked list.
 	public void add(int number){
 		System.out.println("Adding element at the back of the list : " + number);
-		LinkedListImplementation node = new LinkedList();
+		LinkedListImplementation node = new LinkedListImplementation();
 		node.data=number;
 		
 		if(numofElements==0){
@@ -117,7 +117,8 @@ public class LinkedListImplementation{
 	}
 
 	//funciton to get size of the list.
-	public int size(){
+	public int size()
+	{
 		return numofElements;
 	}
 }
